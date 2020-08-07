@@ -1,24 +1,8 @@
-# README
+# Assignment
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+To get the Rails server running locally:
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+`yarn install` - to install dependencies from package.json
+`bundle install` - to install dependencies from Gemfile
+`rails db:migrate` - to make database migration
+`rails s` - to start server locally
